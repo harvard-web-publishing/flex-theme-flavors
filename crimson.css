@@ -7,3 +7,12 @@
 .wp-block-latest-posts>li>a:hover:first-of-type {
 	color: var(--crimson);
 }
+body .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date .calendarp-date-day,
+body .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date .calendarp-date-month {
+	background: var(--crimson);
+}
+body .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date .calendarp-date-day,
+body .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date .calendarp-date-month,
+body .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date .calendarp-date-month {
+	color: #fff;
+}
