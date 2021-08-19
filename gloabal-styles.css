@@ -1,5 +1,18 @@
+:root {
+	--band-margin: 4.5rem;
+}
+/* GLOBAL STYLES **/
+
+.band-bottom-margin {
+	margin-bottom: var(--band-margin);
+}
 /* BRANDING FOOTER **/
 
 #branding_footer {
-      padding: 8px 0;
+	padding: 8px 0;
+}
+/* CALENDAR PLUS **/
+
+.calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-events .calendar-event h3 {
+	font-size: 1.7rem;
 }
