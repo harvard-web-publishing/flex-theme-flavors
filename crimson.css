@@ -1,0 +1,9 @@
+:root {
+	--crimson: #B41110
+}
+.entry-title a,
+.entry-title a:hover,
+.wp-block-latest-posts>li>a:first-of-type,
+.wp-block-latest-posts>li>a:hover:first-of-type {
+	color: var(--crimson);
+}
