@@ -1,0 +1,10 @@
+.modal-body .search-form button.btn-secondary:focus, .modal-body .search-form button.btn-secondary:hover,
+#navbar-main-btn-search button:focus,
+#navbar-main-btn-search button:hover {
+          box-shadow:  0 0 0 0.2rem rgb(255 255 255);
+        }      
+
+body .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date .calendarp-date-day, body .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date .calendarp-date-month {
+	color:#fff;
+	background:#000;
+}
