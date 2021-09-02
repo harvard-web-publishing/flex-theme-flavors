@@ -1,0 +1,31 @@
+:root {
+	--blue: #315E96
+}
+.entry-title a,
+.entry-title a:hover,
+.wp-block-latest-posts>li>a:first-of-type,
+.wp-block-latest-posts>li>a:hover:first-of-type {
+	color: var(--blue);
+}
+body .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date .calendarp-date-day,
+body .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date .calendarp-date-month {
+	background: var(--blue);
+}
+body .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date .calendarp-date-day,
+body .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date .calendarp-date-month,
+body .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date .calendarp-date-month {
+	color: #fff;
+}
+
+body .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date .calendarp-date-month {
+border-color:var(--blue);
+}
+.calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date .calendarp-date-day {
+    border-left: none !important;
+    border-right: none !important;
+    
+}
+.jumbotron, .wp-block-cover {
+    
+    border: 1px solid #e0e0e0;
+}
