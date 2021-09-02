@@ -2,10 +2,13 @@
 	--band-margin: 5rem;
 }
 /* GLOBAL STYLES **/
-
+#custom-footer-html {
+   
+    padding: 30px 0;
+}
 
 .wp-block-cover h1::after {
-display: none;
+display: none !important;
 }
 
 .band-bottom-margin {
@@ -23,6 +26,28 @@ display: none;
 }
 /* CALENDAR PLUS **/
 
+.calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date {
+    width: 20% !important;
+   
+}
+
 .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-events .calendar-event h3 {
 	font-size: 1.7rem !important;
+}
+
+#branding_footer a:hover, #branding_header a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.modal-body .search-form button.btn-secondary:focus, .modal-body .search-form button.btn-secondary:hover,
+#navbar-main-btn-search button:focus,
+#navbar-main-btn-search button:hover {
+            box-shadow: 0 0 0 0.2rem rgb(0 0 0);;
+        }
+
+@media only screen and (min-width: 78.84615em) {
+.calendarp:not(#nocalendarp) .agenda-minified-calendar .large-10 {
+    width: 80% !important;
+}
 }
