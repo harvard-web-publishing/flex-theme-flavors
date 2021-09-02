@@ -16,3 +16,12 @@ body .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item
 body .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date .calendarp-date-month {
 	color: #fff;
 }
+
+body .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date .calendarp-date-month {
+border-color:var(--crimson);
+}
+.calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date .calendarp-date-day {
+    border-left: none !important;
+    border-right: none !important;
+    
+}
