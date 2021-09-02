@@ -25,6 +25,11 @@ border-color:var(--blue);
     border-right: none !important;
     
 }
+.calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date {
+  
+    background: #f5f5f5;
+}
+
 .jumbotron, .wp-block-cover {
     
     border: 1px solid #e0e0e0;
