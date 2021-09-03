@@ -46,6 +46,12 @@ display: none !important;
             box-shadow: 0 0 0 0.2rem rgb(0 0 0);;
         }
 
+
+
+.wp-block-cover__inner-container .wp-block-button__link:focus {
+box-shadow: 0 0 0 0.2rem rgb(0 0 0) !important;
+}
+
 @media only screen and (min-width: 78.84615em) {
 .calendarp:not(#nocalendarp) .agenda-minified-calendar .large-10 {
     width: 80% !important;
