@@ -11,3 +11,8 @@ body .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item
 .entry-col-boxed article a, .sidebar-widget-area-boxed .sidebar-widget-area-content a, .wp-block-cover:not([class*=background-color]) a, .wp-block-latest-posts.is-grid li a, [class*=has-background].has-color-boxes-background-color a {
     color: #ffffff;
 }
+
+.wp-block-cover__inner-container .wp-block-button__link:focus {
+box-shadow: 0 0 0 0.2rem rgb(255 255 255) !important;
+
+}
