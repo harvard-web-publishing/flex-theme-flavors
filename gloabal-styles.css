@@ -6,7 +6,7 @@
    
     padding: 30px 0;
 }
-
+.logged-in .admin-login, /** HIDE THE LOGIN LINK WHEN LOGGED IN **/
 .wp-block-cover h1::after {
 display: none !important;
 }
