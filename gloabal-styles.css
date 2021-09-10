@@ -65,3 +65,10 @@ box-shadow: 0 0 0 0.2rem rgb(0 0 0) !important;
     width: 80% !important;
 }
 }
+
+@media (min-width: 992px) {
+.wp-block-button .wp-block-button__link {
+    padding: 1rem;
+   
+}
+}
