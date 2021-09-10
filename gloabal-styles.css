@@ -31,6 +31,10 @@ display: none !important;
    
 }
 
+.calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item {
+    overflow: visible !important;
+}
+
 .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-events .calendar-event h3 {
 	font-size: 1.7rem !important;
 }
