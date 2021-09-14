@@ -2,23 +2,22 @@
 	--band-margin: 5rem;
 }
 /* GLOBAL STYLES **/
-#custom-footer-html {
-   
-    padding: 30px 0;
-}
-.logged-in .admin-login, /** HIDE THE LOGIN LINK WHEN LOGGED IN **/
-.wp-block-cover h1::after {
-display: none !important;
-}
 
+#custom-footer-html {
+	padding: 30px 0;
+}
+.logged-in .admin-login,
+/** HIDE THE LOGIN LINK WHEN LOGGED IN **/
+
+.wp-block-cover h1::after {
+	display: none !important;
+}
 .hwp_band-bottom-margin {
 	margin-bottom: var(--band-margin);
 }
-
 .wp-block-latest-posts>li>a:first-of-type {
-    text-decoration: underline;
+	text-decoration: underline;
 }
-
 /* BRANDING FOOTER **/
 
 #branding_footer {
@@ -27,48 +26,44 @@ display: none !important;
 /* CALENDAR PLUS **/
 
 .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date {
-    width: 20% !important;
-   
+	width: 20% !important;
 }
-
 .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item {
-    overflow: visible !important;
+	overflow: visible !important;
 }
-
 .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-events .calendar-event h3 {
 	font-size: 1.7rem !important;
 }
-
-#branding_footer a:hover, #branding_header a:hover {
-    color: #fff;
-    text-decoration: none;
+#branding_footer a:hover,
+#branding_header a:hover {
+	color: #fff;
+	text-decoration: none;
 }
-
-.modal-body .search-form button.btn-secondary:focus, .modal-body .search-form button.btn-secondary:hover,
+.modal-body .search-form button.btn-secondary:focus,
+.modal-body .search-form button.btn-secondary:hover,
 #navbar-main-btn-search button:focus,
 #navbar-main-btn-search button:hover {
-            box-shadow: 0 0 0 0.2rem rgb(0 0 0);;
-        }
-
-
-
+	box-shadow: 0 0 0 0.2rem rgb(0 0 0);
+}
 .wp-block-cover__inner-container .wp-block-button__link:focus {
-box-shadow: 0 0 0 0.2rem rgb(0 0 0) !important;
+	box-shadow: 0 0 0 0.2rem rgb(0 0 0) !important;
 }
-
 :focus {
-    outline-color: rgb(0 0 0);
+	outline-color: rgb(0 0 0);
 }
-
 @media only screen and (min-width: 78.84615em) {
-.calendarp:not(#nocalendarp) .agenda-minified-calendar .large-10 {
-    width: 80% !important;
+	.calendarp:not(#nocalendarp) .agenda-minified-calendar .large-10 {
+		width: 80% !important;
+	}
 }
-}
-
 @media (min-width: 992px) {
-.wp-block-button .wp-block-button__link {
-    padding: 1rem;
-   
+	.wp-block-button .wp-block-button__link {
+		padding: 1rem;
+	}
+	
 }
+@media (min-width: 585px) {
+	.calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date {
+		margin-left: 20px;
+	}
 }
