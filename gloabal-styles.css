@@ -62,7 +62,7 @@
 	}
 	
 }
-@media (min-width: 585px) {
+@media (max-width: 585px) {
 	.calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date {
 		margin-left: 20px;
 	}
