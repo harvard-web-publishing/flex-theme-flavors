@@ -16,3 +16,9 @@ body .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item
 box-shadow: 0 0 0 0.2rem rgb(255 255 255) !important;
 
 }
+
+.has-header-main-bg-color-background-color[class*=has-background] {
+
+    background-color: #000;
+  
+}
