@@ -1,24 +1,31 @@
-.modal-body .search-form button.btn-secondary:focus, .modal-body .search-form button.btn-secondary:hover,
+:root {
+--primary-color: #000;
+}
+.modal-body .search-form button.btn-secondary:focus,
+.modal-body .search-form button.btn-secondary:hover,
 #navbar-main-btn-search button:focus,
 #navbar-main-btn-search button:hover {
-          box-shadow:  0 0 0 0.2rem rgb(255 255 255);
-        }      
-
-body .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date .calendarp-date-day, body .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date .calendarp-date-month {
-	color:#fff;
-	background:#000;
+	box-shadow: 0 0 0 0.2rem rgb(255 255 255);
 }
-.entry-col-boxed article a, .sidebar-widget-area-boxed .sidebar-widget-area-content a, .wp-block-cover:not([class*=background-color]) a, .wp-block-latest-posts.is-grid li a, [class*=has-background].has-color-boxes-background-color a {
-    color: #ffffff;
+body .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date .calendarp-date-day,
+body .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date .calendarp-date-month {
+	color: #fff;
+	background: var(--primary-color);
 }
-
+.entry-col-boxed article a,
+.sidebar-widget-area-boxed .sidebar-widget-area-content a,
+.wp-block-cover:not([class*=background-color]) a,
+.wp-block-latest-posts.is-grid li a,
+[class*=has-background].has-color-boxes-background-color a {
+	color: #fff;
+}
 .wp-block-cover__inner-container .wp-block-button__link:focus {
-box-shadow: 0 0 0 0.2rem rgb(255 255 255) !important;
-
+	box-shadow: 0 0 0 0.2rem rgb(255 255 255) !important;
 }
-
 .has-header-main-bg-color-background-color[class*=has-background] {
-
-    background-color: #000;
-  
+	background-color: var(--primary-color);
+}
+.has-header-main-bg-color-background-color .nav .current-menu-ancestor a:not(.has-styling),
+.has-header-main-bg-color-background-color .nav .current-menu-item a:not(.has-styling) {
+	color: #ccc;
 }
