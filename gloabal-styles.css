@@ -4,14 +4,16 @@
 /** 
 GLOBAL STYLES 
 **/
+
 :focus {
 	outline-color: rgb(0 0 0);
 }
-
 #custom-footer-html {
 	padding: 30px 0;
 }
-.logged-in .admin-login, /** hide the login link when logged in **/
+.logged-in .admin-login,
+/** hide the login link when logged in **/
+
 .wp-block-cover h1::after {
 	display: none !important;
 }
@@ -24,14 +26,15 @@ GLOBAL STYLES
 /** 
 TYPOGRAPHY
 **/
-@media (min-width: 992px)
-.h1, h1 {
-    font-size: -webkit-calc(4em * (var(--body-font-size)/ 100) * (var(--headers-font-size)/ 100));
-    font-size: -moz-calc(4em * (var(--body-font-size)/ 100) * (var(--headers-font-size)/ 100));
-    font-size: calc(4em * (var(--body-font-size)/ 100) * (var(--headers-font-size)/ 100));
+
+@media (min-width: 992px) {
+	.h1,
+	h1 {
+		font-size: -webkit-calc(4em * (var(--body-font-size)/ 100) * (var(--headers-font-size)/ 100));
+		font-size: -moz-calc(4em * (var(--body-font-size)/ 100) * (var(--headers-font-size)/ 100));
+		font-size: calc(4em * (var(--body-font-size)/ 100) * (var(--headers-font-size)/ 100));
+	}
 }
-
-
 /**
 BRANDING FOOTER/HEADER 
 **/
@@ -39,13 +42,14 @@ BRANDING FOOTER/HEADER
 #branding_footer {
 	padding: 8px 0;
 }
-
 #branding_footer a:hover,
 #branding_header a:hover {
 	color: #fff;
 	text-decoration: none;
 }
-/* CALENDAR PLUS **/
+/** 
+CALENDAR PLUS 
+**/
 
 .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date {
 	width: 20% !important;
@@ -66,8 +70,6 @@ BRANDING FOOTER/HEADER
 		margin-left: 20px;
 	}
 }
-
-
 .modal-body .search-form button.btn-secondary:focus,
 .modal-body .search-form button.btn-secondary:hover,
 #navbar-main-btn-search button:focus,
@@ -77,12 +79,8 @@ BRANDING FOOTER/HEADER
 .wp-block-cover__inner-container .wp-block-button__link:focus {
 	box-shadow: 0 0 0 0.2rem rgb(0 0 0) !important;
 }
-
-
 @media (min-width: 992px) {
 	.wp-block-button .wp-block-button__link {
 		padding: 1rem;
 	}
-	
 }
-
