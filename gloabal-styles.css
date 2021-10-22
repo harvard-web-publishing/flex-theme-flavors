@@ -60,6 +60,10 @@ CALENDAR PLUS
 .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-events .calendar-event h3 {
 	font-size: 1.7rem !important;
 }
+.calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-events .calendar-event .calendarp-event-meta {
+    font-size: 16px;
+    opacity: .8;
+}
 @media only screen and (min-width: 78.84615em) {
 	.calendarp:not(#nocalendarp) .agenda-minified-calendar .large-10 {
 		width: 80% !important;
