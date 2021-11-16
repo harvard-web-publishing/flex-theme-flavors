@@ -52,7 +52,7 @@ CALENDAR PLUS
 **/
 
 .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date {
-	width: 110px !important;
+	width: 108px !important;
 }
 .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item {
 	overflow: visible !important;
