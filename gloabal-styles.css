@@ -83,10 +83,18 @@ CALENDAR PLUS
 .wp-block-cover__inner-container .wp-block-button__link:focus {
 	box-shadow: 0 0 0 0.2rem rgb(0 0 0) !important;
 }
+
+/** 
+HERO BLOCK 
+**/
 .wp-block-coblocks-hero .wp-block-button .wp-block-button__link:focus {
 	box-shadow: 0 0 0 0.2rem rgb(255 255 255);
 }
 
+.wp-block-coblocks-hero__content-wrapper {
+    background: rgb(0 0 0 / 55%);
+    padding: 20px;
+}
 
 @media (min-width: 992px) {
 	.wp-block-button .wp-block-button__link {
