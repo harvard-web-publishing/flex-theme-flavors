@@ -172,7 +172,7 @@ SIDE FEATURE CARD WITH GREY BACKGROUND
 /** 
 PEOPLE CARDS  
 **/
-.hwp_wp-block-columns--peoople-cards .wp-block-column  {
+.hwp_wp-block-columns--people-cards .wp-block-column  {
     border-radius: 4px;
     padding: 20px;
     text-align: center;
@@ -191,6 +191,6 @@ PEOPLE CARDS
     border-top: 3px solid #B41110;
 }
 
-.hwp_wp-block-columns--peoople-cards .wp-block-column figure img {
+.hwp_wp-block-columns--people-cards .wp-block-column figure img {
      border-radius: 4px;
 }
