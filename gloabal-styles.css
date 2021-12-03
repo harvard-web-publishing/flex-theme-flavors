@@ -47,6 +47,26 @@ BRANDING FOOTER/HEADER
 	color: #fff;
 	text-decoration: none;
 }
+#wrapper-footer {
+ 
+    border-top: 6px solid #e6e6e6;
+}
+
+
+/** 
+MAIN NAVBAR ELEMENTS 
+**/
+.navbar .navbar-brand-text {
+    font-size: 2.2em;
+   
+    font-weight: 500;
+    border-bottom: 1px dotted #b41111 !important;
+}
+body.has-hero #wrapper-navbar-main:not(.navbar-sticks)
+{
+    border-bottom: 3px solid #fff;
+}
+
 /** 
 CALENDAR PLUS 
 **/
@@ -100,4 +120,77 @@ HERO BLOCK
 	.wp-block-button .wp-block-button__link {
 		padding: 1rem;
 	}
+}
+
+/** 
+SUBPAGES - HERO BLOCK 
+**/
+.has-hero-main-bg-color-background-color[class*=has-background] {
+    /* --color-accent: var(--hero-main-bg-color-accent); */
+    /* --color-accent-hl: var(--hero-main-bg-color-accent-hl); */
+    /* background-color: var(--hero-main-bg-color); */
+    /* color: var(--hero-main-bg-color-contrast); */
+    background: url(https://sites.harvard.edu/group-site-sandbox/files/2021/10/waves-bg.png) #b41111;
+    background-position: -300px -110px;
+    /* opacity: .8; */
+}
+
+
+/** 
+IMAGE CARDS WITH GREY BACKGROUND  
+**/
+.hwp_wp-block-coblocks-services--grey-cards .wp-block-coblocks-service  {
+    background: #EEEEEC;
+    border-radius: 4px;
+	    -webkit-box-shadow: -1px 5px 7px 1px rgb(230 230 230);
+    -moz-box-shadow: -1px 5px 7px 1px rgba(230, 230, 230, 1);
+    box-shadow: -1px 5px 7px 1px rgb(230 230 230);
+    border-radius: 0px 0px 5px 5px;
+    -moz-border-radius: 0px 0px 5px 5px;
+    -webkit-border-radius: 0px 0px 5px 5px;
+}
+.hwp_wp-block-coblocks-services--grey-cards .wp-block-coblocks-service > *:not(figure)  {
+  padding:0 20px 20px;
+}
+/** 
+SIDE FEATURE CARD WITH GREY BACKGROUND  
+**/
+.hwp_wp-block-columns-grey-side-media-band
+
+{
+    display: flex;
+    align-items: center;
+    background: #EEEEEC;
+	    -webkit-box-shadow: -1px 5px 7px 1px rgb(230 230 230);
+    -moz-box-shadow: -1px 5px 7px 1px rgba(230, 230, 230, 1);
+    box-shadow: -1px 5px 7px 1px rgb(230 230 230);
+    border-radius: 0px 0px 5px 5px;
+    -moz-border-radius: 0px 0px 5px 5px;
+    -webkit-border-radius: 0px 0px 5px 5px;
+}
+
+/** 
+PEOPLE CARDS  
+**/
+.hwp_wp-block-columns--peoople-cards .wp-block-column  {
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    -webkit-box-shadow: -1px 5px 7px 1px rgb(230 230 230);
+    -moz-box-shadow: -1px 5px 7px 1px rgba(230, 230, 230, 1);
+    box-shadow: -1px 5px 7px 1px rgb(230 230 230);
+    border-radius: 0px 0px 5px 5px;
+    -moz-border-radius: 0px 0px 5px 5px;
+    -webkit-border-radius: 0px 0px 5px 5px;
+    /* border: 0px solid #000000; */
+    padding-bottom: 38px;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #EEEEEC 0%, #EEEEEC 110px, #ffffff 110px, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EEEEEC), color-stop(110px, #EEEEEC), color-stop(110px, #ffffff), color-stop(100%, #000000));
+    background: -webkit-linear-gradient(top, #EEEEEC 0%, #EEEEEC 110px, #ffffff 110px, #ffffff 100%);
+    border-top: 3px solid #B41110;
+}
+
+.hwp_wp-block-columns--peoople-cards .wp-block-column figure img {
+     border-radius: 4px;
 }
