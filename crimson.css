@@ -25,3 +25,6 @@ border-color:var(--crimson);
     border-right: none !important;
     
 }
+[class*=has-background].has-hero-main-bg-color-background-color a {
+    color: #fff !important;
+}
