@@ -1,5 +1,6 @@
 :root {
 	--crimson: #B41110
+	--hero-main-bg-color-contrast:#FFFFFF;
 }
 .entry-title a,
 .entry-title a:hover,
@@ -27,4 +28,8 @@ border-color:var(--crimson);
 }
 [class*=has-background].has-hero-main-bg-color-background-color a {
     color: #fff !important;
+}
+
+.has-hero-main-bg-color-background-color[class*=has-background] {
+    color: var(--hero-main-bg-color-contrast);
 }
