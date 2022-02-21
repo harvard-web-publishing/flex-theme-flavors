@@ -191,6 +191,14 @@ PEOPLE CARDS
     border-top: 3px solid #B41110;
 }
 
+.hwp_wp-block-columns--people-cards .wp-block-column:empty  {
+ -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background: none;
+    border-top: none;
+}
+
 .hwp_wp-block-columns--people-cards .wp-block-column figure img {
      border-radius: 4px;
 }
