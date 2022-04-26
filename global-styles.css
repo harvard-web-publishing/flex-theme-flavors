@@ -121,6 +121,19 @@ HERO BLOCK
 		padding: 1rem;
 	}
 }
+/** 
+HOMEPAGE COVER BLOCK
+**/
+.home .wp-block-cover__inner-container {
+    background: rgb(0 0 0 / 55%);
+    padding: 20px;
+
+}
+@media (min-width: 768px) {
+	.home .wp-block-cover__inner-container {
+		    max-width: 585px;
+	}
+}
 
 /** 
 SUBPAGES - HERO BLOCK 
