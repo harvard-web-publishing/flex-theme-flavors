@@ -131,7 +131,7 @@ HOMEPAGE COVER BLOCK
 }
 @media (min-width: 768px) {
 	.home .wp-block-cover__inner-container {
-		    max-width: 585px;
+		    max-width: 650px;
 	}
 }
 
