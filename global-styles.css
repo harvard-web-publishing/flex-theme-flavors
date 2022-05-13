@@ -27,6 +27,11 @@ GLOBAL STYLES
 TYPOGRAPHY
 **/
 
+code {
+     color: #000000;
+
+}
+
 @media (min-width: 992px) {
 	.h1,
 	h1 {
