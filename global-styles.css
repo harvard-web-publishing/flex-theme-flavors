@@ -23,6 +23,9 @@ GLOBAL STYLES
 .wp-block-latest-posts>li>a:first-of-type {
 	text-decoration: underline;
 }
+table td {
+       vertical-align: top;
+}
 /** 
 TYPOGRAPHY
 **/
