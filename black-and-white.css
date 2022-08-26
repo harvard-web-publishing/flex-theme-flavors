@@ -27,7 +27,11 @@ body .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item
 }
 .has-header-main-bg-color-background-color .nav .current-menu-ancestor a:not(.has-styling),
 .has-header-main-bg-color-background-color .nav .current-menu-item a:not(.has-styling) {
-	color: #ccc;
+	color: #FFF;
+}
+.has-header-main-bg-color-background-color .nav .current-menu-ancestor a.dropdown-item:not(.has-styling),
+.has-header-main-bg-color-background-color .nav .current-menu-item a.dropdown-item:not(.has-styling) {
+	color: #000;
 }
 
 .navbar .navbar-brand-text {
