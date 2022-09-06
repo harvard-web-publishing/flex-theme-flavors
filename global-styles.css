@@ -79,6 +79,7 @@ body.has-hero #wrapper-navbar-main:not(.navbar-sticks)
 CALENDAR PLUS 
 **/
 
+
 .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date {
 	width: 108px !important;
 }
@@ -88,9 +89,11 @@ CALENDAR PLUS
 .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-events .calendar-event h3 {
 	font-size: 1.7rem !important;
 }
+.calendarp-even-location,
 .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-events .calendar-event .calendarp-event-meta {
     font-size: 16px !important;
     opacity: .8;
+font-style: normal;
 }
 @media only screen and (min-width: 78.84615em) {
 	.calendarp:not(#nocalendarp) .agenda-minified-calendar .large-10 {
