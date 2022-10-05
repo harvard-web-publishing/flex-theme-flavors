@@ -24,23 +24,29 @@ GLOBAL STYLES
 	text-decoration: underline;
 }
 table td {
-       vertical-align: top;
+	vertical-align: top;
 }
 /** 
 TYPOGRAPHY
 **/
 
 code {
-     color: #000000;
-
+	color: #000000;
 }
-
 @media (min-width: 992px) {
 	.h1,
 	h1 {
 		font-size: -webkit-calc(4em * (var(--body-font-size)/ 100) * (var(--headers-font-size)/ 100));
 		font-size: -moz-calc(4em * (var(--body-font-size)/ 100) * (var(--headers-font-size)/ 100));
 		font-size: calc(4em * (var(--body-font-size)/ 100) * (var(--headers-font-size)/ 100));
+	}
+}
+@media (min-width: 992px) {
+	.h2,
+	h2 {
+		font-size: -webkit-calc(2.5em * (var(--body-font-size)/ 100) * (var(--headers-font-size)/ 100));
+		font-size: -moz-calc(2.5em * (var(--body-font-size)/ 100) * (var(--headers-font-size)/ 100));
+		font-size: calc(2.5em * (var(--body-font-size)/ 100) * (var(--headers-font-size)/ 100));
 	}
 }
 /**
@@ -56,29 +62,23 @@ BRANDING FOOTER/HEADER
 	text-decoration: none;
 }
 #wrapper-footer {
- 
-    border-top: 6px solid #e6e6e6;
+	border-top: 6px solid #e6e6e6;
 }
-
-
 /** 
 MAIN NAVBAR ELEMENTS 
 **/
-.navbar .navbar-brand-text {
-    font-size: 2.2em;
-   
-    font-weight: 500;
-    border-bottom: 1px dotted #b41111 !important;
-}
-body.has-hero #wrapper-navbar-main:not(.navbar-sticks)
-{
-    border-bottom: 3px solid #fff;
-}
 
+.navbar .navbar-brand-text {
+	font-size: 2.2em;
+	font-weight: 500;
+	border-bottom: 1px dotted #b41111 !important;
+}
+body.has-hero #wrapper-navbar-main:not(.navbar-sticks) {
+	border-bottom: 3px solid #fff;
+}
 /** 
 CALENDAR PLUS 
 **/
-
 
 .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-date {
 	width: 108px !important;
@@ -91,9 +91,9 @@ CALENDAR PLUS
 }
 .calendarp-even-location,
 .calendarp:not(#nocalendarp) .agenda-minified-calendar .calendarp-date-item .calendarp-events .calendar-event .calendarp-event-meta {
-    font-size: 16px !important;
-    opacity: .8;
-font-style: normal !important;
+	font-size: 16px !important;
+	opacity: .8;
+	font-style: normal !important;
 }
 @media only screen and (min-width: 78.84615em) {
 	.calendarp:not(#nocalendarp) .agenda-minified-calendar .large-10 {
@@ -114,19 +114,17 @@ font-style: normal !important;
 .wp-block-cover__inner-container .wp-block-button__link:focus {
 	box-shadow: 0 0 0 0.2rem rgb(0 0 0) !important;
 }
-
 /** 
 HERO BLOCK 
 **/
+
 .wp-block-coblocks-hero .wp-block-button .wp-block-button__link:focus {
 	box-shadow: 0 0 0 0.2rem rgb(255 255 255);
 }
-
 .wp-block-coblocks-hero__content-wrapper {
-    background: rgb(0 0 0 / 55%);
-    padding: 20px;
+	background: rgb(0 0 0 / 55%);
+	padding: 20px;
 }
-
 @media (min-width: 992px) {
 	.wp-block-button .wp-block-button__link {
 		padding: 1rem;
@@ -135,94 +133,96 @@ HERO BLOCK
 /** 
 HOMEPAGE COVER BLOCK
 **/
-.home .wp-block-cover__inner-container {
-    background: rgb(0 0 0 / 55%);
-    padding: 20px;
 
+.home .wp-block-cover__inner-container {
+	background: rgb(0 0 0 / 55%);
+	padding: 20px;
 }
 @media (min-width: 768px) {
 	.home .wp-block-cover__inner-container {
-		    max-width: 650px;
+		max-width: 650px;
 	}
 }
-
 /** 
 SUBPAGES - HERO BLOCK 
 **/
+
 .has-hero-main-bg-color-background-color[class*=has-background] {
-    /* --color-accent: var(--hero-main-bg-color-accent); */
-    /* --color-accent-hl: var(--hero-main-bg-color-accent-hl); */
-    /* background-color: var(--hero-main-bg-color); */
-    /* color: var(--hero-main-bg-color-contrast); */
-    background: url(https://sites.harvard.edu/group-site-sandbox/files/2021/10/waves-bg.png) #b41111;
-    background-position: -300px -110px;
-    /* opacity: .8; */
+	/* --color-accent: var(--hero-main-bg-color-accent); */
+	/* --color-accent-hl: var(--hero-main-bg-color-accent-hl); */
+	/* background-color: var(--hero-main-bg-color); */
+	/* color: var(--hero-main-bg-color-contrast); */
+	background: url(https://sites.harvard.edu/group-site-sandbox/files/2021/10/waves-bg.png) #b41111;
+	background-position: -300px -110px;
+	/* opacity: .8; */
 }
-
-
 /** 
 IMAGE CARDS WITH GREY BACKGROUND  
 **/
-.hwp_wp-block-coblocks-services--grey-cards .wp-block-coblocks-service  {
-    background: #EEEEEC;
-    border-radius: 4px;
-	    -webkit-box-shadow: -1px 5px 7px 1px rgb(230 230 230);
-    -moz-box-shadow: -1px 5px 7px 1px rgba(230, 230, 230, 1);
-    box-shadow: -1px 5px 7px 1px rgb(230 230 230);
-    border-radius: 0px 0px 5px 5px;
-    -moz-border-radius: 0px 0px 5px 5px;
-    -webkit-border-radius: 0px 0px 5px 5px;
+
+.hwp_wp-block-coblocks-services--grey-cards .wp-block-coblocks-service {
+	background: #EEEEEC;
+	border-radius: 4px;
+	-webkit-box-shadow: -1px 5px 7px 1px rgb(230 230 230);
+	-moz-box-shadow: -1px 5px 7px 1px rgba(230, 230, 230, 1);
+	box-shadow: -1px 5px 7px 1px rgb(230 230 230);
+	border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;
+	-webkit-border-radius: 0px 0px 5px 5px;
 }
-.hwp_wp-block-coblocks-services--grey-cards .wp-block-coblocks-service > *:not(figure)  {
-  padding:0 20px 20px;
+.hwp_wp-block-coblocks-services--grey-cards .wp-block-coblocks-service>*:not(figure) {
+	padding: 0 20px 20px;
+}
+.hwp_wp-block-coblocks-services--grey-cards .wp-block-coblocks-service .wp-block-coblocks-service__figure {
+	margin: 0;
+}
+.hwp_wp-block-coblocks-services--grey-cards .wp-block-coblocks-service h3 {
+	margin-top: 0.75em;
 }
 /** 
 SIDE FEATURE CARD WITH GREY BACKGROUND  
 **/
-.hwp_wp-block-columns-grey-side-media-band
 
-{
-    display: flex;
-    align-items: center;
-    background: #EEEEEC;
-	    -webkit-box-shadow: -1px 5px 7px 1px rgb(230 230 230);
-    -moz-box-shadow: -1px 5px 7px 1px rgba(230, 230, 230, 1);
-    box-shadow: -1px 5px 7px 1px rgb(230 230 230);
-    border-radius: 0px 0px 5px 5px;
-    -moz-border-radius: 0px 0px 5px 5px;
-    -webkit-border-radius: 0px 0px 5px 5px;
+.hwp_wp-block-columns-grey-side-media-band {
+	display: flex;
+	align-items: center;
+	background: #EEEEEC;
+	-webkit-box-shadow: -1px 5px 7px 1px rgb(230 230 230);
+	-moz-box-shadow: -1px 5px 7px 1px rgba(230, 230, 230, 1);
+	box-shadow: -1px 5px 7px 1px rgb(230 230 230);
+	border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;
+	-webkit-border-radius: 0px 0px 5px 5px;
 }
-
 /** 
 PEOPLE CARDS  
 **/
-.hwp_wp-block-columns--people-cards .wp-block-column  {
-    border-radius: 4px;
-    padding: 20px;
-    text-align: center;
-    -webkit-box-shadow: -1px 5px 7px 1px rgb(230 230 230);
-    -moz-box-shadow: -1px 5px 7px 1px rgba(230, 230, 230, 1);
-    box-shadow: -1px 5px 7px 1px rgb(230 230 230);
-    border-radius: 0px 0px 5px 5px;
-    -moz-border-radius: 0px 0px 5px 5px;
-    -webkit-border-radius: 0px 0px 5px 5px;
-    /* border: 0px solid #000000; */
-    padding-bottom: 38px;
-    background: #ffffff;
-    background: -moz-linear-gradient(top, #EEEEEC 0%, #EEEEEC 110px, #ffffff 110px, #ffffff 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EEEEEC), color-stop(110px, #EEEEEC), color-stop(110px, #ffffff), color-stop(100%, #000000));
-    background: -webkit-linear-gradient(top, #EEEEEC 0%, #EEEEEC 110px, #ffffff 110px, #ffffff 100%);
-    border-top: 3px solid #B41110;
-}
 
-.hwp_wp-block-columns--people-cards .wp-block-column:empty  {
- -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    background: none;
-    border-top: none;
+.hwp_wp-block-columns--people-cards .wp-block-column {
+	border-radius: 4px;
+	padding: 20px;
+	text-align: center;
+	-webkit-box-shadow: -1px 5px 7px 1px rgb(230 230 230);
+	-moz-box-shadow: -1px 5px 7px 1px rgba(230, 230, 230, 1);
+	box-shadow: -1px 5px 7px 1px rgb(230 230 230);
+	border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;
+	-webkit-border-radius: 0px 0px 5px 5px;
+	/* border: 0px solid #000000; */
+	padding-bottom: 38px;
+	background: #ffffff;
+	background: -moz-linear-gradient(top, #EEEEEC 0%, #EEEEEC 110px, #ffffff 110px, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EEEEEC), color-stop(110px, #EEEEEC), color-stop(110px, #ffffff), color-stop(100%, #000000));
+	background: -webkit-linear-gradient(top, #EEEEEC 0%, #EEEEEC 110px, #ffffff 110px, #ffffff 100%);
+	border-top: 3px solid #B41110;
 }
-
+.hwp_wp-block-columns--people-cards .wp-block-column:empty {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	background: none;
+	border-top: none;
+}
 .hwp_wp-block-columns--people-cards .wp-block-column figure img {
-     border-radius: 4px;
+	border-radius: 4px;
 }
