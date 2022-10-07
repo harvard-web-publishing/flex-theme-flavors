@@ -147,14 +147,10 @@ HOMEPAGE COVER BLOCK
 SUBPAGES - HERO BLOCK 
 **/
 
-.has-hero-main-bg-color-background-color[class*=has-background] {
-	/* --color-accent: var(--hero-main-bg-color-accent); */
-	/* --color-accent-hl: var(--hero-main-bg-color-accent-hl); */
-	/* background-color: var(--hero-main-bg-color); */
-	/* color: var(--hero-main-bg-color-contrast); */
+#hero-main.has-hero-main-bg-color-background-color[class*=has-background] {
 	background: url(https://sites.harvard.edu/group-site-sandbox/files/2021/10/waves-bg.png) #b41111;
 	background-position: -300px -110px;
-	/* opacity: .8; */
+
 }
 /** 
 IMAGE CARDS WITH GREY BACKGROUND  
