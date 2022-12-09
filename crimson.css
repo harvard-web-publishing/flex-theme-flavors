@@ -3,6 +3,16 @@
 	--hero-main-bg-color-contrast:#FFFFFF;
 
 }
+
+/** 
+SUBPAGES - HERO BLOCK 
+**/
+
+#hero-main.has-hero-main-bg-color-background-color[class*=has-background] {
+	background: url('https://sites.harvard.edu/group-site-sandbox/files/2021/10/waves-bg.png') #b41111;
+	background-position: -300px -110px;
+
+}
 .entry-title a,
 .entry-title a:hover,
 .wp-block-latest-posts>li>a:first-of-type,
